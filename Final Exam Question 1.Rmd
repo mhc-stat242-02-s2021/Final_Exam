@@ -1,0 +1,53 @@
+---
+title: "Final Exam: Question 1"
+subtitle: "STAT 242: Intermediate Statistics"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(mosaicData)
+library(ggplot2)
+library(dplyr)
+library(gridExtra)
+library(leaps)
+library(GGally)
+```
+
+The HELP stuy was a clinical trial for adult inpatients recruited from a detoxification unit. Patients with no primary care physician were randomized to receive a multidisciplinary assessment and a brief motivational intervention or usual care, with the goal of linking them to primary medical care. As part of the study, a number of measurements were taken on the participants at baseline. 
+
+- `substance` is the primary substance of abuse: a variable with three levels (`alcohol`, `cocaine`, `heroin`)
+- `mcs` is the SF-36 Mental Component Score (measured at baseline, lower scores indicate worse mental health status)
+- `i1` is the average number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)
+- `age` is the subject age at baseline
+- `d1` is the lifetime number of hospitalizations for medical problems (measured at baseline)
+- `sex` is 0 for male, 1 for female
+- `pcs` is the SF-36 Physical Component Score (measured at baseline, lower scores indicate worse physical health status)
+
+We will use `i1` (or its square root transformation) as the response. The rest of the variables are explanatory variables.
+
+### (a) Make a pairs plot of the data including only the variables you will use in your analysis (with the response variable last).
+
+```{r}
+
+```
+
+
+### (b) Assess whether the conditions are met for a linear model. Make all relevant plots and discuss them when assessing these conditions. Make transformations as necessary.
+
+
+
+### (c) Check for influential observations, outliers or high leverage observations.
+
+
+
+
+### (d) Use all subsets regression to identify a set of models with similar ability to model these data well, based on your transformed variables.  If necessary, perform this step both with and without the outliers or influential observations included.
+
+
+### (e) Obtain the model fits for all models you identified in (d) as explaining the data comparably well, and print the model summaries.
+
+
+
+### (f) Summarize what your analysis has to say about the association between each of these predictors and the response. Indicate which findings are consistent across all models, and which depend on specifics. Make this summary as understandable as possible, and comment on the generalizability of your conclusions.
