@@ -11,7 +11,7 @@ library(ggplot2)
 library(dplyr)
 library(MASS)
 
-leish <- 
+leish <- read.csv("https://marievozanne.github.io/stat242/datasets/ecoleish_exam.csv")
 ```
 
 Leishmaniasis is a zoonotic vector borne disease, which means that it infects both humans and animals, and that is transmitted primarily through the bite of a sand fly. It is endemic (meaning that it persists in the population) in 98 countries. It is endemic in 98 countries in the world and presents a myriad of public health challenges. Domesticated dogs are an integral part of the transmission process, since they spend so much time near humans. Increased understanding the risk factors that lead to clinical leishmaniasis in dogs informs preventative measures to be applied to improve both human and canine health. We will use the following variables in our analysis:
