@@ -25,7 +25,7 @@ The HELP stuy was a clinical trial for adult inpatients recruited from a detoxif
 - `sex` is 0 for male, 1 for female
 - `pcs` is the SF-36 Physical Component Score (measured at baseline, lower scores indicate worse physical health status)
 
-We will use `i1` (or its square root transformation) as the response. The rest of the variables are explanatory variables.
+We will use `i1` (or its square root transformation) as the response. The rest of the variables are explanatory variables. The data are loaded with the mosaicData package; the data set is called `HELPrct`. 
 
 ### (a) Make a pairs plot of the data including only the variables you will use in your analysis (with the response variable last).
 
